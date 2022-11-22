@@ -1,0 +1,356 @@
+/* line 1, ../../../../practice/web-portfolio/scss/main.scss */
+.primary {
+  background: #13001E;
+}
+
+/* line 5, ../../../../practice/web-portfolio/scss/main.scss */
+.primary2 {
+  background: #F1CF1D;
+}
+
+/* line 9, ../../../../practice/web-portfolio/scss/main.scss */
+body {
+  min-width: 1440px;
+  background-color: #13001E;
+}
+
+/* line 14, ../../../../practice/web-portfolio/scss/main.scss */
+header {
+  background: #1E0030;
+}
+
+/* line 16, ../../../../practice/web-portfolio/scss/main.scss */
+header .container {
+  max-width: 1110px;
+  padding: 0;
+}
+
+/* line 20, ../../../../practice/web-portfolio/scss/main.scss */
+header .row {
+  align-items: center;
+  max-width: 1110px;
+  --bs-gutter-x: 0;
+}
+
+/* line 25, ../../../../practice/web-portfolio/scss/main.scss */
+header nav {
+  padding: 0;
+  display: flex;
+  height: 60px;
+}
+
+/* line 29, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-7 {
+  display: flex;
+  align-items: center;
+}
+
+/* line 32, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-7 .logo {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 38, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-7 .logo span {
+  color: #F1CF1D;
+}
+
+/* line 42, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-7 .logo:hover {
+  color: #F1CF1D;
+}
+
+/* line 44, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-7 .logo:hover span {
+  color: white;
+}
+
+/* line 52, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 {
+  display: flex;
+  align-items: center;
+}
+
+/* line 55, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 61, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul li {
+  list-style: none;
+}
+
+/* line 63, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* line 68, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul li a:hover {
+  color: #F1CF1D;
+}
+
+/* line 71, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul li + li {
+  margin-left: 64px;
+}
+
+/* line 74, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul li + button {
+  margin-left: 62px;
+}
+
+/* line 78, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul .btn {
+  background: #F1CF1D;
+  font-size: 13px;
+  color: #1E0030;
+  height: 23px;
+  width: 95px;
+  padding: 0;
+  border-radius: 17px;
+}
+
+/* line 87, ../../../../practice/web-portfolio/scss/main.scss */
+header nav .col-md-5 ul .btn:hover {
+  background: #646365;
+  color: white;
+}
+
+/* line 96, ../../../../practice/web-portfolio/scss/main.scss */
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: #13001E;
+}
+
+/* line 101, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container {
+  max-width: 1110px;
+  display: flex;
+  padding: 0;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+/* line 107, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container .col-12 {
+  margin: 130px 0;
+  padding: 0;
+}
+
+/* line 111, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container h1 {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  color: white;
+  font-size: 96px;
+  font-weight: bold;
+}
+
+/* line 119, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container h3 {
+  margin-top: 79px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  font-size: 40px;
+}
+
+/* line 126, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container h3 span {
+  color: #F1CF1D;
+}
+
+/* line 130, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container h5 {
+  display: flex;
+  margin-top: 24px;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+
+/* line 136, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container h5 span {
+  color: #F1CF1D;
+}
+
+/* line 140, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container .input-msg {
+  display: flex;
+  align-items: center;
+  margin-top: 27px;
+}
+
+/* line 145, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container .input-msg input {
+  width: 455px;
+  height: 33px;
+  border-radius: 17px;
+  border: none;
+  background-color: #D9D9D9;
+  text-align: center;
+}
+
+/* line 153, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container .input-msg .btn {
+  background: #F1CF1D;
+  color: #13001E;
+  width: 120px;
+  height: 33px;
+  padding: 0;
+  border-radius: 17px;
+  margin-left: 25px;
+  border: none;
+}
+
+/* line 163, ../../../../practice/web-portfolio/scss/main.scss */
+.hero .container .input-msg .btn:hover {
+  background: #646365;
+  color: white;
+}
+
+/* line 171, ../../../../practice/web-portfolio/scss/main.scss */
+footer {
+  background: #1E0030;
+  height: 130px;
+}
+
+/* line 174, ../../../../practice/web-portfolio/scss/main.scss */
+footer .container {
+  max-width: 1110px;
+  padding: 0;
+  height: 130px;
+}
+
+/* line 179, ../../../../practice/web-portfolio/scss/main.scss */
+footer .row {
+  --bs-gutter-x: 0;
+  max-width: 1110px;
+}
+
+/* line 183, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+/* line 187, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .logo {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+/* line 193, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .logo .logo:hover {
+  color: #F1CF1D;
+}
+
+/* line 195, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .logo .logo:hover span {
+  color: white;
+}
+
+/* line 199, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .logo span {
+  color: #F1CF1D;
+}
+
+/* line 204, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .menu ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 210, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .menu ul li {
+  list-style: none;
+}
+
+/* line 212, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .menu ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+/* line 217, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .menu ul li a:hover {
+  color: #F1CF1D;
+}
+
+/* line 220, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .menu ul li + li {
+  margin-left: 64px;
+}
+
+/* line 226, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact {
+  color: #ffffff;
+  font-size: 14px;
+}
+
+/* line 229, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .email {
+  margin-bottom: 9px;
+  position: relative;
+}
+
+/* line 233, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .email2 {
+  margin-bottom: 22px;
+}
+
+/* line 236, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact p {
+  margin-bottom: 0;
+}
+
+/* line 239, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .tel {
+  margin-top: 9px;
+}
+
+/* line 241, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .tel a {
+  color: #ffffff;
+  text-decoration: none;
+  position: relative;
+}
+
+/* line 247, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .email-icon {
+  margin-left: -30px;
+  font-size: 20px;
+  color: #F1CF1D;
+}
+
+/* line 253, ../../../../practice/web-portfolio/scss/main.scss */
+footer .col-12 .contact .tel-icon {
+  margin-left: -27px;
+  font-size: 20px;
+  color: #F1CF1D;
+}
+
+/*# sourceMappingURL=main.css.map */

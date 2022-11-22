@@ -1,0 +1,301 @@
+body {
+  min-width: 1440px;
+  background-color: #13001E; }
+
+header {
+  background: #1E0030; }
+  header .container {
+    max-width: 1110px;
+    padding: 0; }
+  header .row {
+    align-items: center;
+    max-width: 1110px;
+    --bs-gutter-x: 0; }
+  header nav {
+    padding: 0;
+    display: flex;
+    height: 60px; }
+    header nav .col-md-7 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-7 .logo {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        color: white;
+        text-decoration: none; }
+        header nav .col-md-7 .logo span {
+          color: #F1CF1D; }
+      header nav .col-md-7 .logo:hover {
+        color: #F1CF1D; }
+        header nav .col-md-7 .logo:hover span {
+          color: white; }
+    header nav .col-md-5 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-5 .active {
+        color: #F1CF1D; }
+      header nav .col-md-5 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0; }
+        header nav .col-md-5 ul li {
+          list-style: none; }
+          header nav .col-md-5 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px; }
+          header nav .col-md-5 ul li a:hover {
+            color: #F1CF1D; }
+          header nav .col-md-5 ul li + li {
+            margin-left: 64px; }
+          header nav .col-md-5 ul li + button {
+            margin-left: 62px; }
+        header nav .col-md-5 ul .btn {
+          background: #F1CF1D;
+          font-size: 13px;
+          color: #1E0030;
+          height: 23px;
+          width: 95px;
+          padding: 0;
+          border-radius: 17px; }
+        header nav .col-md-5 ul .btn:hover {
+          background: #646365;
+          color: white; }
+
+.topic {
+  display: flex;
+  justify-content: center; }
+  .topic .container {
+    max-width: 1110px;
+    height: 68px;
+    background: #1E0030;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 18px 0; }
+    .topic .container .row {
+      --bs-gutter-x: 0; }
+    .topic .container .col-12 {
+      padding: 0; }
+      .topic .container .col-12 h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 26px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white; }
+
+.project {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px; }
+  .project .container {
+    max-width: 1110px;
+    padding: 0; }
+    .project .container .row {
+      --bs-gutter-x: 0; }
+    .project .container .about-project {
+      padding: 0;
+      width: 450px;
+      margin-right: 18px; }
+      .project .container .about-project .chatbot {
+        background: #180025;
+        padding: 26px 26px;
+        height: 404px;
+        width: 450px; }
+        .project .container .about-project .chatbot .name h3 {
+          color: white;
+          font-size: 20px;
+          font-weight: 600;
+          letter-spacing: 0.75px;
+          margin-bottom: 15px; }
+        .project .container .about-project .chatbot .detail {
+          margin-top: 15px; }
+          .project .container .about-project .chatbot .detail .sub {
+            border-bottom: 0.5px solid #646365;
+            margin-bottom: 1rem; }
+            .project .container .about-project .chatbot .detail .sub p {
+              color: #646365;
+              font-size: 14px; }
+          .project .container .about-project .chatbot .detail .liff {
+            margin-bottom: 17px; }
+            .project .container .about-project .chatbot .detail .liff .login {
+              color: white;
+              font-size: 16px;
+              font-weight: 500;
+              margin-bottom: 15px; }
+            .project .container .about-project .chatbot .detail .liff p {
+              font-size: 14px;
+              font-weight: bold;
+              color: white;
+              margin: 0; }
+              .project .container .about-project .chatbot .detail .liff p span {
+                color: #646365;
+                font-weight: 500;
+                float: right; }
+          .project .container .about-project .chatbot .detail .api .bot-api {
+            color: white;
+            font-size: 16px;
+            font-weight: 500;
+            margin-bottom: 15px; }
+          .project .container .about-project .chatbot .detail .api p {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin: 0; }
+            .project .container .about-project .chatbot .detail .api p span {
+              color: #646365;
+              font-weight: 500;
+              float: right; }
+      .project .container .about-project .detection {
+        background: #180025;
+        padding: 33px 26px;
+        margin-top: 18px;
+        height: 316px;
+        width: 450px; }
+        .project .container .about-project .detection .name h3 {
+          color: white;
+          font-size: 20px;
+          font-weight: 600;
+          letter-spacing: 0.75px;
+          margin-bottom: 15px; }
+        .project .container .about-project .detection .detail {
+          margin-top: 23px; }
+          .project .container .about-project .detection .detail .sub {
+            border-bottom: 0.5px solid #646365;
+            margin-bottom: 1rem; }
+            .project .container .about-project .detection .detail .sub p {
+              color: #646365;
+              font-size: 14px;
+              margin-bottom: 1rem;
+              margin-top: 0; }
+          .project .container .about-project .detection .detail p {
+            font-size: 14px;
+            font-weight: bold;
+            color: white;
+            margin: 0; }
+            .project .container .about-project .detection .detail p span {
+              color: #646365;
+              font-weight: 500;
+              float: right; }
+  .project .example-project {
+    width: 642px; }
+    .project .example-project .ex-chatbot {
+      background: #180025;
+      height: 404px;
+      width: 642px;
+      padding: 26px 26px;
+      margin-right: 0;
+      display: flex;
+      justify-content: space-between; }
+      .project .example-project .ex-chatbot .rich-menu .time-table {
+        margin-top: 22px; }
+      .project .example-project .ex-chatbot .rich-menu img {
+        height: 205px;
+        width: 118px; }
+      .project .example-project .ex-chatbot .rich-menu video {
+        height: 205px;
+        width: 118px;
+        border-radius: 9px; }
+      .project .example-project .ex-chatbot .rich-menu p {
+        font-size: 14px;
+        color: #646365;
+        display: flex;
+        justify-content: center;
+        margin-top: 28px; }
+    .project .example-project .ex-detection {
+      width: 642px;
+      height: 316px;
+      background: #180025;
+      display: flex;
+      justify-content: space-between;
+      padding: 80px 30px;
+      margin-top: 18px; }
+      .project .example-project .ex-detection .demo {
+        width: 273px;
+        height: 134px; }
+        .project .example-project .ex-detection .demo video {
+          width: 273px;
+          height: 134px; }
+        .project .example-project .ex-detection .demo p {
+          font-size: 14px;
+          color: #646365;
+          display: flex;
+          justify-content: center;
+          margin-top: 10px; }
+
+footer {
+  background: #1E0030;
+  height: 148px; }
+  footer .container {
+    max-width: 1110px;
+    padding: 0;
+    height: 130px; }
+  footer .row {
+    --bs-gutter-x: 0;
+    max-width: 1110px; }
+  footer .col-12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0; }
+    footer .col-12 .logo {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+      text-decoration: none; }
+      footer .col-12 .logo .logo:hover {
+        color: #F1CF1D; }
+        footer .col-12 .logo .logo:hover span {
+          color: white; }
+      footer .col-12 .logo span {
+        color: #F1CF1D; }
+    footer .col-12 .menu ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0; }
+      footer .col-12 .menu ul li {
+        list-style: none; }
+        footer .col-12 .menu ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px; }
+        footer .col-12 .menu ul li a:hover {
+          color: #F1CF1D; }
+        footer .col-12 .menu ul li + li {
+          margin-left: 64px; }
+    footer .col-12 .contact {
+      color: #ffffff;
+      font-size: 14px; }
+      footer .col-12 .contact .email {
+        margin-bottom: 9px;
+        position: relative;
+        text-decoration: none;
+        color: #ffffff; }
+      footer .col-12 .contact a:hover {
+        color: #F1CF1D; }
+      footer .col-12 .contact .email2 {
+        margin-bottom: 22px; }
+      footer .col-12 .contact p {
+        margin-bottom: 0; }
+      footer .col-12 .contact .tel {
+        margin-top: 9px; }
+        footer .col-12 .contact .tel a {
+          color: #ffffff;
+          text-decoration: none;
+          position: relative; }
+        footer .col-12 .contact .tel a:hover {
+          color: #F1CF1D; }
+      footer .col-12 .contact .email-icon {
+        margin-left: -30px;
+        font-size: 20px;
+        color: #F1CF1D; }
+      footer .col-12 .contact .tel-icon {
+        margin-left: -27px;
+        font-size: 20px;
+        color: #F1CF1D; }

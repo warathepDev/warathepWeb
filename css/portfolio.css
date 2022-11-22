@@ -1,0 +1,343 @@
+header {
+  background: #1E0030; }
+  header .container {
+    max-width: 1110px;
+    padding: 0; }
+  header .row {
+    align-items: center;
+    max-width: 1110px;
+    --bs-gutter-x: 0; }
+  header nav {
+    padding: 0;
+    display: flex;
+    height: 60px; }
+    header nav .col-md-7 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-7 .logo {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        color: white;
+        text-decoration: none; }
+        header nav .col-md-7 .logo span {
+          color: #F1CF1D; }
+      header nav .col-md-7 .logo:hover {
+        color: #F1CF1D; }
+        header nav .col-md-7 .logo:hover span {
+          color: white; }
+    header nav .col-md-5 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-5 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0; }
+        header nav .col-md-5 ul li {
+          list-style: none; }
+          header nav .col-md-5 ul li .active {
+            color: #F1CF1D; }
+          header nav .col-md-5 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px; }
+          header nav .col-md-5 ul li a:hover {
+            color: #F1CF1D; }
+          header nav .col-md-5 ul li + li {
+            margin-left: 64px; }
+          header nav .col-md-5 ul li + button {
+            margin-left: 62px; }
+        header nav .col-md-5 ul .btn {
+          background: #F1CF1D;
+          font-size: 13px;
+          color: #1E0030;
+          height: 23px;
+          width: 95px;
+          padding: 0;
+          border-radius: 17px; }
+        header nav .col-md-5 ul .btn:hover {
+          background: #646365;
+          color: white; }
+
+.topic {
+  display: flex;
+  justify-content: center; }
+  .topic .container {
+    max-width: 1110px;
+    height: 68px;
+    background: #1E0030;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    margin: 18px 0; }
+    .topic .container .row {
+      --bs-gutter-x: 0; }
+    .topic .container .col-12 {
+      padding: 0; }
+      .topic .container .col-12 h3 {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 26px;
+        font-size: 20px;
+        font-weight: bold;
+        color: white; }
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 18px; }
+  .portfolio .container {
+    max-width: 1110px;
+    padding: 0; }
+    .portfolio .container .row {
+      --bs-gutter-x: 0; }
+    .portfolio .container .profile {
+      background: #1E0030;
+      margin-bottom: 18px;
+      margin-right: 18px;
+      padding: 0;
+      height: 280px;
+      width: 450px; }
+      .portfolio .container .profile .mini-profile {
+        display: block;
+        padding: 44px; }
+        .portfolio .container .profile .mini-profile .img-pro {
+          position: relative;
+          display: flex;
+          justify-content: center; }
+          .portfolio .container .profile .mini-profile .img-pro img {
+            width: 115px;
+            height: 115px;
+            display: flex;
+            justify-content: center; }
+        .portfolio .container .profile .mini-profile .detail {
+          display: block; }
+          .portfolio .container .profile .mini-profile .detail .text .name {
+            text-shadow: 1px 1px #000;
+            margin-top: -20px;
+            font-size: 15px;
+            font-weight: bold;
+            color: white; }
+          .portfolio .container .profile .mini-profile .detail .text p {
+            margin: 0;
+            font-size: 14px;
+            display: flex;
+            justify-content: center;
+            color: #646365; }
+  .portfolio .detail2 {
+    background: #180025;
+    padding: 31px 44px;
+    height: 430px; }
+    .portfolio .detail2 .text {
+      border-bottom: 1px solid #646365;
+      display: flex; }
+      .portfolio .detail2 .text .test {
+        display: flex;
+        margin-bottom: 18px; }
+        .portfolio .detail2 .text .test p {
+          margin-bottom: 10px; }
+        .portfolio .detail2 .text .test .topic {
+          display: block;
+          float: left; }
+          .portfolio .detail2 .text .test .topic p {
+            color: white;
+            font-size: 14px;
+            font-weight: 500; }
+        .portfolio .detail2 .text .test .value {
+          float: right;
+          margin-left: 255px; }
+          .portfolio .detail2 .text .test .value p {
+            color: #646365;
+            font-size: 14px; }
+          .portfolio .detail2 .text .test .value .age {
+            float: right; }
+    .portfolio .detail2 .skill {
+      display: flex;
+      clear: both;
+      margin-top: 25px; }
+      .portfolio .detail2 .skill p {
+        color: white;
+        font-size: 14px;
+        margin-bottom: 9.5px; }
+      .portfolio .detail2 .skill .launge {
+        float: left; }
+      .portfolio .detail2 .skill .tools {
+        margin-left: 241px;
+        float: right; }
+        .portfolio .detail2 .skill .tools p {
+          float: right; }
+  .portfolio .col-md-7 {
+    height: 710px;
+    width: 642px; }
+    .portfolio .col-md-7 .intro {
+      height: 186px;
+      width: 642px;
+      margin-bottom: 18px;
+      background: #180025;
+      padding: 40px 30px;
+      display: flex;
+      align-items: center;
+      border: #F1CF1D; }
+      .portfolio .col-md-7 .intro p {
+        margin: 0;
+        font-size: 20px;
+        color: white; }
+    .portfolio .col-md-7 .edu {
+      width: 309.56px;
+      height: 506px;
+      background: #180025;
+      padding: 35px 30px;
+      margin: 0 auto;
+      float: left; }
+      .portfolio .col-md-7 .edu .head {
+        margin-bottom: 35px; }
+        .portfolio .col-md-7 .edu .head h1 {
+          font-size: 20px;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 0; }
+      .portfolio .col-md-7 .edu .school {
+        border-bottom: 1px solid #646365; }
+        .portfolio .col-md-7 .edu .school p {
+          color: white;
+          font-size: 14px;
+          margin-bottom: 0; }
+        .portfolio .col-md-7 .edu .school .name {
+          color: #646365;
+          margin-top: 8px;
+          margin-bottom: 0; }
+        .portfolio .col-md-7 .edu .school .school-img {
+          display: flex;
+          justify-content: center;
+          margin: 23px 0; }
+          .portfolio .col-md-7 .edu .school .school-img img {
+            height: 73px;
+            width: 62px; }
+      .portfolio .col-md-7 .edu .university p {
+        color: white;
+        font-size: 14px;
+        margin-top: 23px;
+        margin-bottom: 0; }
+      .portfolio .col-md-7 .edu .university .name {
+        color: #646365;
+        margin-top: 8px;
+        margin-bottom: 0; }
+        .portfolio .col-md-7 .edu .university .name span {
+          font-size: 13px; }
+      .portfolio .col-md-7 .edu .university .university-img {
+        display: flex;
+        justify-content: center;
+        margin: 23px 0; }
+        .portfolio .col-md-7 .edu .university .university-img img {
+          height: 73px;
+          width: 73px; }
+    .portfolio .col-md-7 .exp {
+      width: 309.56px;
+      height: 506px;
+      background: #180025;
+      padding: 35px 30px;
+      float: right; }
+      .portfolio .col-md-7 .exp .head {
+        margin-bottom: 35px; }
+        .portfolio .col-md-7 .exp .head h1 {
+          font-size: 20px;
+          font-weight: bold;
+          color: white;
+          margin-bottom: 0; }
+      .portfolio .col-md-7 .exp .name p {
+        color: white;
+        font-size: 14px;
+        margin-top: 23px;
+        margin-bottom: 0; }
+        .portfolio .col-md-7 .exp .name p span {
+          color: #F1CF1D; }
+      .portfolio .col-md-7 .exp .tools {
+        margin-top: 8px; }
+        .portfolio .col-md-7 .exp .tools p {
+          color: #646365;
+          font-size: 13px;
+          margin: 0; }
+      .portfolio .col-md-7 .exp .link {
+        padding-left: 1px;
+        margin-top: -4px; }
+        .portfolio .col-md-7 .exp .link a {
+          font-size: 10px;
+          color: #F1CF1D;
+          text-decoration: none; }
+        .portfolio .col-md-7 .exp .link a:hover {
+          color: white; }
+
+footer {
+  background: #1E0030;
+  height: 148px; }
+  footer .container {
+    max-width: 1110px;
+    padding: 0;
+    height: 130px; }
+  footer .row {
+    --bs-gutter-x: 0;
+    max-width: 1110px; }
+  footer .col-12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0; }
+    footer .col-12 .logo {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+      text-decoration: none; }
+      footer .col-12 .logo .logo:hover {
+        color: #F1CF1D; }
+        footer .col-12 .logo .logo:hover span {
+          color: white; }
+      footer .col-12 .logo span {
+        color: #F1CF1D; }
+    footer .col-12 .menu ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0; }
+      footer .col-12 .menu ul li {
+        list-style: none; }
+        footer .col-12 .menu ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px; }
+        footer .col-12 .menu ul li a:hover {
+          color: #F1CF1D; }
+        footer .col-12 .menu ul li + li {
+          margin-left: 64px; }
+    footer .col-12 .contact {
+      color: #ffffff;
+      font-size: 14px; }
+      footer .col-12 .contact .email {
+        margin-bottom: 9px;
+        position: relative;
+        text-decoration: none;
+        color: #ffffff; }
+      footer .col-12 .contact a:hover {
+        color: #F1CF1D; }
+      footer .col-12 .contact .email2 {
+        margin-bottom: 22px; }
+      footer .col-12 .contact p {
+        margin-bottom: 0; }
+      footer .col-12 .contact .tel {
+        margin-top: 9px; }
+        footer .col-12 .contact .tel a {
+          color: #ffffff;
+          text-decoration: none;
+          position: relative; }
+        footer .col-12 .contact .tel a:hover {
+          color: #F1CF1D; }
+      footer .col-12 .contact .email-icon {
+        margin-left: -30px;
+        font-size: 20px;
+        color: #F1CF1D; }
+      footer .col-12 .contact .tel-icon {
+        margin-left: -27px;
+        font-size: 20px;
+        color: #F1CF1D; }

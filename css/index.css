@@ -1,0 +1,231 @@
+.primary2 {
+  background: #F1CF1D; }
+
+header {
+  background: #1E0030; }
+  header .container {
+    max-width: 1110px;
+    padding: 0; }
+  header .row {
+    align-items: center;
+    max-width: 1110px;
+    --bs-gutter-x: 0; }
+  header nav {
+    padding: 0;
+    display: flex;
+    height: 60px; }
+    header nav .col-md-7 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-7 .logo {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 0;
+        color: white;
+        text-decoration: none; }
+        header nav .col-md-7 .logo span {
+          color: #F1CF1D; }
+      header nav .col-md-7 .logo:hover {
+        color: #F1CF1D; }
+        header nav .col-md-7 .logo:hover span {
+          color: white; }
+    header nav .col-md-5 {
+      display: flex;
+      align-items: center; }
+      header nav .col-md-5 ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0;
+        padding: 0; }
+        header nav .col-md-5 ul li {
+          list-style: none; }
+          header nav .col-md-5 ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 14px; }
+          header nav .col-md-5 ul li a:hover {
+            color: #F1CF1D; }
+          header nav .col-md-5 ul li + li {
+            margin-left: 64px; }
+          header nav .col-md-5 ul li + button {
+            margin-left: 62px; }
+        header nav .col-md-5 ul .btn {
+          background: #F1CF1D;
+          font-size: 13px;
+          color: #1E0030;
+          height: 23px;
+          width: 95px;
+          padding: 0;
+          border-radius: 17px; }
+        header nav .col-md-5 ul .btn:hover {
+          background: #646365;
+          color: white; }
+
+.popup .content {
+  height: 450px;
+  width: 350px;
+  background: #1E0030;
+  opacity: 50%;
+  z-index: 2;
+  transform: translate(-50%, -150%) scale(0);
+  position: absolute;
+  box-shadow: 38px 38px 56px #1e1e1e, -25px -25px 38px #1e1e1e;
+  z-index: 1; }
+
+.popup .active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1); }
+
+.hero {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background: #13001E; }
+  .hero .container {
+    max-width: 1110px;
+    display: flex;
+    padding: 0;
+    margin: 0 auto;
+    justify-content: center; }
+    .hero .container .col-12 {
+      margin: 130px 0;
+      padding: 0; }
+    .hero .container #inputbox[value=""] p {
+      background: none;
+      border: none; }
+    .hero .container p {
+      margin-top: 0;
+      position: absolute;
+      color: black;
+      font-size: medium;
+      padding: 8px 0px;
+      width: 600px;
+      top: 100px;
+      text-align: center;
+      border-radius: 17px; }
+    .hero .container h1 {
+      display: flex;
+      margin: 0 auto;
+      justify-content: center;
+      color: white;
+      font-size: 96px;
+      font-weight: bold;
+      position: relative;
+      z-index: 100; }
+    .hero .container h3 {
+      margin-top: 79px;
+      display: flex;
+      justify-content: center;
+      color: white;
+      font-size: 40px; }
+      .hero .container h3 span {
+        color: #F1CF1D; }
+    .hero .container h5 {
+      display: flex;
+      margin-top: 24px;
+      justify-content: center;
+      color: white;
+      font-size: 24px; }
+      .hero .container h5 span {
+        color: #F1CF1D; }
+    .hero .container .input-msg {
+      display: flex;
+      align-items: center;
+      margin-top: 27px; }
+      .hero .container .input-msg input {
+        width: 455px;
+        height: 33px;
+        border-radius: 17px;
+        border: none;
+        background-color: #D9D9D9;
+        text-align: center; }
+      .hero .container .input-msg .btn {
+        background: #F1CF1D;
+        color: #13001E;
+        width: 120px;
+        height: 33px;
+        padding: 0;
+        border-radius: 17px;
+        margin-left: 25px;
+        border: none; }
+      .hero .container .input-msg .btn:active {
+        background: linear-gradient(145deg, #222222, #292929);
+        box-shadow: 5px 5px 10px #262626, -5px -5px 10px #262626;
+        border: none; }
+      .hero .container .input-msg .btn:hover {
+        background: #646365;
+        color: white; }
+
+footer {
+  background: #1E0030;
+  height: 148px; }
+  footer .container {
+    max-width: 1110px;
+    padding: 0;
+    height: 130px; }
+  footer .row {
+    --bs-gutter-x: 0;
+    max-width: 1110px; }
+  footer .col-12 {
+    display: flex;
+    justify-content: space-between;
+    margin: 32px 0; }
+    footer .col-12 .logo {
+      font-size: 16px;
+      font-weight: bold;
+      margin: 0;
+      color: white;
+      text-decoration: none; }
+      footer .col-12 .logo .logo:hover {
+        color: #F1CF1D; }
+        footer .col-12 .logo .logo:hover span {
+          color: white; }
+      footer .col-12 .logo span {
+        color: #F1CF1D; }
+    footer .col-12 .menu ul {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0;
+      padding: 0; }
+      footer .col-12 .menu ul li {
+        list-style: none; }
+        footer .col-12 .menu ul li a {
+          text-decoration: none;
+          color: white;
+          font-size: 14px; }
+        footer .col-12 .menu ul li a:hover {
+          color: #F1CF1D; }
+        footer .col-12 .menu ul li + li {
+          margin-left: 64px; }
+    footer .col-12 .contact {
+      color: #ffffff;
+      font-size: 14px; }
+      footer .col-12 .contact .email {
+        margin-bottom: 9px;
+        position: relative;
+        text-decoration: none;
+        color: #ffffff; }
+      footer .col-12 .contact a:hover {
+        color: #F1CF1D; }
+      footer .col-12 .contact .email2 {
+        margin-bottom: 22px; }
+      footer .col-12 .contact p {
+        margin-bottom: 0; }
+      footer .col-12 .contact .tel {
+        margin-top: 9px; }
+        footer .col-12 .contact .tel a {
+          color: #ffffff;
+          text-decoration: none;
+          position: relative; }
+        footer .col-12 .contact .tel a:hover {
+          color: #F1CF1D; }
+      footer .col-12 .contact .email-icon {
+        margin-left: -30px;
+        font-size: 20px;
+        color: #F1CF1D; }
+      footer .col-12 .contact .tel-icon {
+        margin-left: -27px;
+        font-size: 20px;
+        color: #F1CF1D; }
