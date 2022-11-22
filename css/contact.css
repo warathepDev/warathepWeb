@@ -93,6 +93,7 @@ header {
   justify-content: space-between; }
   .content .container {
     max-width: 1110px;
+    min-height: 500px;
     margin-bottom: 18px;
     padding: 0; }
     .content .container .row {
