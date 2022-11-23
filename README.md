@@ -1,3 +1,4 @@
-# warathepWep
+# WarathepWep
+(None responsive)
 
-website for practice using HTML, SCSS, Javascript
+Website for practice using HTML, SCSS, Javascript
